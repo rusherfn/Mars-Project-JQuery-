@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./js/common.js"></script>
   <link rel="stylesheet" href="./css/main.css">
   <title>Mars:Project</title>
 </head>
@@ -82,10 +83,10 @@
     <div class="container flex">
       <a href="index.html" class="logo"><img src="./images/logo.png" alt=""></a>
       <ul class="nav flex">
-        <li><a href="#" class="on">홈</a></li>
+        <li><a href="#">홈</a></li>
         <li><a href="#">로그인</a></li>
         <li><a href="#">회원가입</a></li>
-        <li><a href="#">갤러리</a></li>
+        <li><a href="./gallery.html">갤러리</a></li>
       </ul>
       <div class="hamburger">
         <span></span>
@@ -343,40 +344,7 @@
   </script>
 
   <script>
-    // 전체메뉴
-    var hamburger = $('.hamburger')
-    var close = $('.menu .close')
-    var menu = $('.menu')
-
-    hamburger.click(function() {
-      menu.show()
-    })
-    close.click(function() {
-      menu.hide()
-    })
-    // 헤더 스크립트
-    var header = $('.header')
-    var goTop = $('.go_top')
-
-    $(window).scroll(function() {
-      var scrollTopValue = $(document).scrollTop()
-      if( scrollTopValue > 0 ) {
-        header.addClass('active')
-      } else {
-        header.removeClass('active')
-      }
-
-      if( scrollTopValue > 900 ) {
-        goTop.fadeIn()
-      } else {
-        goTop.fadeOut()
-      }
-    })
-
-    goTop.click(function() {
-      $('html, body').animate({scrollTop:0}, 400)
-    })
-
+  
     // 슬라이드
      $('.slide_01').slick({
        dots: true,
