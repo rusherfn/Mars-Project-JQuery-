@@ -132,3 +132,60 @@ img {
   width: 100%;
   display: block;
 }
+
+h2 {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+p {
+  line-height: 1.4;
+}
+
+/* common-style  */
+.pb10 {
+  padding-bottom: 10px;
+}
+.pb20 {
+  padding-bottom: 20px;
+}
+.pb30 {
+  padding-bottom: 30px;
+}
+.pb40 {
+  padding-bottom: 40px;
+}
+.pb100 {
+  padding-bottom: 100px;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+.mr20 {
+  margin-right: 20px;
+}
+.mr30 {
+  margin-right: 30px;
+}
+.mr40 {
+  margin-right: 40px;
+}
+.mr50 {
+  margin-right: 50px;
+}
+.mr100 {
+  margin-right: 100px;
+}
